@@ -155,6 +155,8 @@ There exist system-wide channel types that are available by default and which sh
 | electric-power        | system.electric-power        | Number:Power             | Energy           | Measurement, Power        | Electric power                                                                                                                                                                                                          |
 | electric-voltage      | system.electric-voltage      | Number:ElectricPotential | Energy           | Measurement, Voltage      | Electric voltage                                                                                                                                                                                                        |
 | electrical-energy     | system.electric-energy       | Number:Energy            | Energy           | Measurement, Energy       | Electrical energy                                                                                                                                                                                                       |
+| uv-index              | system.uv-index              | Number                   | -                | Measurement, Ultraviolet  | Current UV index                                                                                                                                                                                                        |
+
 
 The `advanced` property indicates whether this channel is a basic or a more specific functionality of the thing.
 If `advanced` is set to `true` a user interface may hide this channel by default.
